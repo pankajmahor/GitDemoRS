@@ -33,6 +33,10 @@ public class Standalonetest {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 		driver.manage().window().maximize();
+		
+		System.out.println("Code commit changes to github");
+		System.out.println("Code commit changes 22");
+		System.out.println("Code commit changes 33");
 
 		/*
 		 * driver.findElement(By.id("userEmail")).sendKeys("sa.johngrey@gmail.com");
